@@ -1,0 +1,164 @@
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/76/251/667/artwork-space-art-nebula-planet-wallpaper-preview.jpg);
+    backdrop-filter: blur(30px);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h1{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+}
+.banner-text p{
+    font-size: 46px;
+    color: #fff;
+    margin: 20px 0;
+}
+.banner-text button{
+    padding: 10px 25px;
+    background-color: #f44336;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.banner-text button:hover{
+    background-color: #fff;
+    color: #f44336;
+    transition: 0.5s;
+}
+@media(max-width: 700px){
+    .banner-text h1{
+        font-size: 40px;
+    }
+    .banner-text p{
+        font-size: 16px;
+    }
+}
+@media(max-width: 500px){
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 400px){
+    .banner-text h1{
+        font-size: 25px;
+    }
+    .banner-text p{
+        font-size: 12px;
+    }
+}
+.getStartedBanner{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getStartedBanner-text{
+    text-align: center;
+}
+.getStartedBanner-text h1{
+    font-size: 100px;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+.getStartedBanner-text p{
+    font-size: 46px;
+    color: #777575;
+    margin: 20px 0;
+}
+.getStartedBanner-text button{
+    padding: 10px 25px;
+    background-color: #f44336;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.getStartedBanner-text button:hover{
+    background-color: #fff;
+    color: #f44336;
+    transition: 0.5s;
+}
+@media(max-width: 700px){
+    .getStartedBanner{
+        margin-top: 120px;
+    }
+    .getStartedBanner-text h1{
+       margin-top: 50px;
+        font-size: 40px;
+    }
+    .getStartedBanner-text p{
+        font-size: 16px;
+    }
+}
+@media(max-width: 500px){
+    .getStartedBanner-text h1{
+        font-size: 30px;
+    }
+    .getStartedBanner-text p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 400px){
+    .getStartedBanner-text h1{
+        font-size: 25px;
+    }
+    .getStartedBanner-text p{
+        font-size: 12px;
+    }
+}
+.howWorks{
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.howWorks-text{
+    text-align: center;
+}
+.howWorks p {
+    font-size: 20px;
+    color: #424242;
+    margin: 20px 0;
+
+}
+@media screen and (max-width: 700px) {
+    .howWorks{
+        margin-top: 120px;
+    }
+    .howWorks-text h1 {
+        font-size: 40px;
+    }
+    .howWorks-text p {
+        font-size: 16px;
+    }
+    
+}

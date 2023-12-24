@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<style>
+.contactcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/76/251/667/artwork-space-art-nebula-planet-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactcard-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    background-color: #250e6448;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+.contactcard-text h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.contactcard-text p{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.contactcard-text form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactcard-text form input{
+    width: 50%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+.contactcard-text form textarea{
+    width: 50%;
+    height: 10rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+.contactcard-text form button{
+    width: 50%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.name{
+    background-color: #faf6f6;
+    color: #000000;
+    width: 50%;
+}
+.email{
+    background-color: #faf6f6;
+    color: #000000;
+}
+.message{
+    background-color: #faf6f6;
+    color: #000000;
+}
+.send{
+    background-color: #1a1a1a;
+    color: white;
+}
+.mainForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 1200px;
+}
+@media screen and (max-width: 768px) {
+    .contactcard-text{
+        width: 100%;
+        height: 100%;
+    }
+    .mainForm{
+        width: 100%;
+        height: 100%;
+    }
+    .name{
+        width: 100%;
+    }
+    .email{
+        width: 100%;
+    }
+    .message{
+        width: 100%;
+    }
+    
+    
+}
+
+</style>
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="/index.html">LyricsA</a></div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="/create.html">Create</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+    </div>
+    </div>
+    <div class="contactcard">
+        <div class="contactcard-text">
+            <h1>Contact Us</h1>
+            <p>Fill out the form below and we will get back to you as soon as possible.</p>
+            <form class="mainForm" action="https://formspree.io/f/xnqoqjqr" method="POST">
+                <input type="text" name="name" placeholder="Name" class="name">
+                <input type="text" name="email" placeholder="Email" class="email">
+                <textarea name="message" placeholder="Message" class="message"></textarea>
+                <button type="submit" class="send">Send</button>
+            </form>
+        </div>
+
+        
+    </div>
+</body>
+</html>

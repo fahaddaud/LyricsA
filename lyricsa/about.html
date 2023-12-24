@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<style>
+    .aboutme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/76/251/667/artwork-space-art-nebula-planet-wallpaper-preview.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .aboutme img{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        box-shadow: inset 0 0 10px 0 rgba(0,0,0,0.2);
+    }
+
+    .aboutme-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 50%;
+        background-color: #250e6448;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+        backdrop-filter: blur(10px);
+    }
+    .aboutme-text h1{
+        color: white;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .aboutme-text p{
+        color: white;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .aboutme-text form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutme-text form input{
+        width: 50%;
+        height: 2rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding-left: 1rem;
+    }
+    .aboutme-text form textarea{
+        width: 50%;
+        height: 5rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding-left: 1rem;
+    }
+    .aboutme-text form button{
+        width: 50%;
+        height: 2rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding-left: 1rem;
+        background-color: #250e64;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    @media screen and (max-width: 768px) 
+    {
+        .aboutme{
+            height: 100%;
+            width: 100%;
+        }
+        .aboutme-text{
+            height: 100%;
+            width: 100%;
+        }
+        .aboutme-text h1{
+            font-size: 2rem;
+        }
+        .aboutme-text p{
+            font-size: 1rem;
+        }
+        .aboutme-text form input{
+            width: 100%;
+        }
+        .aboutme-text form textarea{
+            width: 100%;
+        }
+        .aboutme-text form button{
+            width: 100%;
+        }
+        
+        
+    }
+</style>
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="/index.html">LyricsA</a></div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="/create.html">Create</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+    </div>
+    </div>
+    <div class="aboutme">
+        <div class="aboutme-text">
+            <img src="https://media.licdn.com/dms/image/D4D03AQEzyRty9qBg6Q/profile-displayphoto-shrink_200_200/0/1694113651332?e=2147483647&v=beta&t=K6uqjqekaE4ggcPizF9zbSjZBEKT3HRJJx6AghYuLus">
+            <h1>About Me</h1>
+           <h2 style="color: white;">Fahad Daud</h2>
+           <br>
+            <p>Hi, I'm a 20 year old developer from Pakistan. I love to code and I'm always looking for new things to learn.</p>
+    </div>
+</body>
+</html>
